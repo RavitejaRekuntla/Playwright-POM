@@ -1,0 +1,17 @@
+{
+  "Valid_user": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "Invalid_user": {
+    "username": "wrong_user",
+    "password": "wrong_pass"
+  },
+  "empty credentials": {
+    "username": "",
+    "password":  ""
+  },
+  "Url":{
+    "data": "https://www.saucedemo.com/"
+  }
+}
