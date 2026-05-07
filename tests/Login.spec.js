@@ -22,7 +22,7 @@ test.describe("Login Tests", () => {
 
     await expect(login.errorMsg).toBeVisible();
 
-    logger.info("Invalid Login Test Completed");
+    logger.info("Ending Invalid Login Test Completed");
   });
 
   test("empty credentials", async ({ page }) => {
@@ -37,7 +37,7 @@ test.describe("Login Tests", () => {
 
     await expect(login.errorMsg).toBeVisible();
 
-    logger.info("empty credentials Test Completed");
+    logger.info("Ending empty credentials Test Completed");
   });
 
   // test("Valid Login", async ({ page }) => {
